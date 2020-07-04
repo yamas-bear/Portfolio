@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f6f6f6;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+.header-div {
+  height: 100px;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.main-nav li {
+  color: #096fca;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 90px;
+}
+
+.my-picture {
+  margin-top: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.my-picture > img {
+  margin-left: 42%;
+}
+
+.my-picture > div {
+  padding-top: 20px;
+}
+
+.my-picture > div p {
+  color: #333333;
+}
+
+.my-picture > div p:nth-child(1) {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.my-picture > div p:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.my-picture > div p:nth-child(3) {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+img {
+  border-radius: 50%;
+  /* 角丸半径を50%にする(=円形にする) */
+  width: 180px;
+  /* ※縦横を同値に */
+  height: 180px;
+  /* ※縦横を同値に */
+}
+
+.wrapper {
+  width: 100vw;
+  height: 50vh;
+}
+
+.box1 {
+  margin-top: 8px;
+  margin-left: 33px;
+  display: inline-block;
+  width: 45%;
+  height: 90%;
+}
+
+.divider {
+  display: inline-block;
+  border-left: 1px solid #38546d;
+  border-right: 1px solid #16222c;
+  height: 100%;
+}
+
+.box2 {
+  display: inline-block;
+  width: 45%;
+  height: 90%;
+}
+/*# sourceMappingURL=style.css.map */
