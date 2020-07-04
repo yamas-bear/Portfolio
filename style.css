@@ -45,7 +45,7 @@ header {
 }
 
 .my-picture > img {
-  margin-left: 42%;
+  margin-left: 42.3%;
 }
 
 .my-picture > div {
@@ -87,29 +87,66 @@ img {
   /* ※縦横を同値に */
 }
 
-.wrapper {
-  width: 100vw;
-  height: 50vh;
+.introduce > div {
+  margin-top: 90px;
+  margin-left: 140px;
+  text-align: center;
+  width: 80%;
+  height: 700px;
+  background-color: white;
 }
 
-.box1 {
-  margin-top: 8px;
-  margin-left: 33px;
+.introduce > div > p {
+  margin-top: 30px;
+  margin-bottom: 50px;
   display: inline-block;
-  width: 45%;
-  height: 90%;
+  font-size: 30px;
+  color: #096fca;
+  border-bottom: medium solid #535353;
 }
 
-.divider {
-  display: inline-block;
-  border-left: 1px solid #38546d;
-  border-right: 1px solid #16222c;
-  height: 100%;
+.introduce-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 
-.box2 {
+.introduce-content > p.introduce-content-year,
+.introduce-content p.introduce-content-text1,
+.introduce-content p.introduce-content-text2,
+.introduce-content p.introduce-content-text3 {
+  margin: 20px 210px 10px 60px;
   display: inline-block;
-  width: 45%;
-  height: 90%;
+  font-size: 25px;
+  color: black;
+}
+
+.introduce-content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.introduce-content2 > p.introduce-content-text4 {
+  margin: 0 0 10px 467px;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: skyblue;
 }
 /*# sourceMappingURL=style.css.map */
