@@ -1,0 +1,283 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f6f6f6;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+.header-div {
+  height: 100px;
+  width: 100%;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-nav li {
+  color: #096fca;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-picture {
+  margin-top: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.my-picture > img {
+  margin-left: 42.3%;
+}
+
+.my-picture > div {
+  padding-top: 20px;
+}
+
+.my-picture > div p {
+  color: #333333;
+}
+
+.my-picture > div p:nth-child(1) {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.my-picture > div p:nth-child(2) {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.my-picture > div p:nth-child(3) {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+img {
+  border-radius: 50%;
+  /* 角丸半径を50%にする(=円形にする) */
+  width: 180px;
+  /* ※縦横を同値に */
+  height: 180px;
+  /* ※縦横を同値に */
+}
+
+.introduce > div {
+  margin-top: 90px;
+  margin-left: 140px;
+  text-align: center;
+  width: 80%;
+  height: 700px;
+  background-color: white;
+}
+
+.introduce > div > p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 30px;
+  color: #096fca;
+  border-bottom: medium solid #535353;
+}
+
+.introduce > div h1.question1 {
+  color: black;
+  font-size: 70px;
+  left: 20px;
+  width: 50%;
+  height: 110px;
+  margin-bottom: 50px;
+}
+
+.introduce > div h1.question2 {
+  color: black;
+  font-size: 70px;
+  margin-top: 110px;
+  margin-left: 180px;
+  width: 85%;
+  height: 110px;
+  margin-bottom: 50px;
+}
+
+.introduce-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.introduce-content > p.introduce-content-year,
+.introduce-content p.introduce-content-text1,
+.introduce-content p.introduce-content-text2,
+.introduce-content p.introduce-content-text3 {
+  margin: 20px 210px 10px 60px;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+}
+
+.introduce-content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.introduce-content2 > p.introduce-content-text4 {
+  margin: 0 0 10px 467px;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+}
+
+.main-contents > div {
+  margin-top: 90px;
+  margin-left: 140px;
+  text-align: center;
+  width: 80%;
+  height: 1300px;
+  background-color: white;
+}
+
+.main-contents > div > p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 30px;
+  color: #096fca;
+  border-bottom: medium solid #535353;
+}
+
+.main-contents > div h1.question1 {
+  color: black;
+  font-size: 70px;
+  left: 20px;
+  width: 50%;
+  height: 110px;
+  margin-bottom: 50px;
+}
+
+.main-contents > div h1.question2 {
+  color: black;
+  font-size: 70px;
+  margin-top: 110px;
+  margin-left: 180px;
+  width: 85%;
+  height: 110px;
+  margin-bottom: 50px;
+}
+
+.main-contents-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.main-contents-content > p.introduce-content-year,
+.main-contents-content p.introduce-content-text1,
+.main-contents-content p.introduce-content-text2,
+.main-contents-content p.introduce-content-text3 {
+  margin: 20px 210px 10px 60px;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+}
+
+.main-contents-content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.main-contents-content2 > p.introduce-content-text4 {
+  margin: 0 0 10px 467px;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+}
+
+.works > div {
+  margin-top: 90px;
+  margin-left: 140px;
+  text-align: center;
+  width: 80%;
+  height: 650px;
+  background-color: white;
+}
+
+.works > div > p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 30px;
+  color: #096fca;
+  border-bottom: medium solid #535353;
+}
+
+.works > div > div > p > span {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.question1-content > p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.question1-content > p > span {
+  margin-left: 30px;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.question2-content > p {
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.question2-content > p > span {
+  margin-right: 30px;
+  font-size: medium;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=base.css.map */
